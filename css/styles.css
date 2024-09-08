@@ -57,7 +57,8 @@ address {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.address-item {
+.address-item:hover {
+  color: #404bbf;
 }
 .address-link {
 }
@@ -73,6 +74,9 @@ address {
   background: #4d5ae5;
 }
 
+.btn:hover {
+  background: #404bbf;
+}
 /* #endregion */
 
 /* #region Sections*/
@@ -93,6 +97,11 @@ address {
 .header-nav-item {
 }
 .header-nav-link {
+}
+
+.header-nav-link:hover,
+.header-nav-link:active {
+  color: #404bbf;
 }
 
 /* Hero */
