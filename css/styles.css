@@ -44,11 +44,27 @@ address {
   text-transform: uppercase;
   color: #4d5ae5;
 }
+
 .logo-dark {
   color: #2e2f42;
 }
+
+.logo-dark:active,
+.logo-dark:hover {
+   color: #404bbf;
+}
+
 .logo-light {
   color: #f4f4fd;
+}
+
+.logo-light:active,
+.logo-light:hover {
+  color: #404bbf;
+}
+
+.address {
+
 }
 
 .address-list {
@@ -57,7 +73,8 @@ address {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.address-item:hover {
+.address-item:hover,
+.address-item:focus {
   color: #404bbf;
 }
 .address-link {
@@ -73,7 +90,8 @@ address {
   background: #4d5ae5;
 }
 
-.btn:hover {
+.btn:hover,
+.btn:focus {
   background: #404bbf;
 }
 /* #endregion */
@@ -139,6 +157,7 @@ address {
 
 /* Team */
 .team {
+  background-color: #f4f4fd;
 }
 .team-title {
   font-weight: 700;
@@ -146,10 +165,12 @@ address {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
 }
 .team-list {
 }
 .team-member {
+  background-color:#fff;
 }
 .team-member-img {
 }
@@ -176,6 +197,7 @@ address {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
 }
 .portfolio-list {
 }
