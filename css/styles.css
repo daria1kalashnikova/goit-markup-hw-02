@@ -198,6 +198,7 @@ address {
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
+  color: #2e2f42;
 }
 .portfolio-list {
 }
@@ -210,6 +211,7 @@ address {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 .portfolio-item-caption {
   font-size: 16px;
