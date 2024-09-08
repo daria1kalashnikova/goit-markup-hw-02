@@ -71,12 +71,12 @@ address {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.address-item:hover,
-.address-item:focus,
-.address-item:active {
+.address-link:hover,
+.address-link:focus,
+.address-link:active {
   color: #404bbf;
 }
-.address-link {
+.address-item {
 }
 
 /* Buttons */
