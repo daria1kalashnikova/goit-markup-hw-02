@@ -4,7 +4,7 @@
 /* #region Base */
 body {
   font-family: Roboto, sans-serif;
-  color: color: #434455;
+  color: #434455;
   background-color: #fff;
 }
 
@@ -25,7 +25,6 @@ button {
 }
 
 img {
-  display: block;
   max-width: 100%;
 }
 
@@ -51,7 +50,7 @@ address {
 
 .logo-dark:active,
 .logo-dark:hover {
-   color: #404bbf;
+  color: #404bbf;
 }
 
 .logo-light {
@@ -64,7 +63,6 @@ address {
 }
 
 .address {
-
 }
 
 .address-list {
@@ -103,8 +101,7 @@ address {
 }
 .header-nav {
 }
-.header-logo {
-}
+
 .header-nav-list {
   font-weight: 500;
   font-size: 16px;
@@ -147,6 +144,7 @@ address {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 .advantages-item-caption {
   font-size: 16px;
@@ -166,11 +164,12 @@ address {
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
+  color: #2e2f42;
 }
 .team-list {
 }
 .team-member {
-  background-color:#fff;
+  background-color: #fff;
 }
 .team-member-img {
 }
@@ -180,6 +179,7 @@ address {
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
+  color: #2e2f42;
 }
 .team-member-position {
   font-size: 16px;
@@ -222,8 +222,7 @@ address {
 .footer {
   background-color: #2e2f42;
 }
-.footer-logo {
-}
+
 .footer-caption {
   font-size: 16px;
   line-height: 1.5;
